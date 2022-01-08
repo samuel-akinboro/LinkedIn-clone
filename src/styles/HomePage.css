@@ -1,0 +1,185 @@
+:root{
+  --black: rgb(25,25,25);
+  --grey: #7d7d7d;
+  --light-grey: rgb(201, 199, 199);
+}
+
+.left__col__container{
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+}
+
+.left__col__container .user__detials .grey-cover{
+  width: 100%;
+  background-color: #A0B4B7;
+  height: 46px;
+}
+
+.left__col__container .user__detials .profile__image{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 10px;
+  border: 2px solid #fff;
+}
+
+.left__col__container .user__detials .profile__image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.left__col__container .user__detials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.left__col__container .user__detials h4{
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: lowercase;
+  color: var(--black);
+}
+
+.left__col__container p{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: rgba(0,0,0,0.6);
+}
+
+.left__col__container .more__details .connection__details{
+  border-top: 1px solid rgb(237, 235, 235);
+  padding: 8px;
+  cursor: pointer;
+}
+
+.left__col__container .more__details .connection__details a p span{
+  color: rgb(22, 93, 236);
+  margin-left: 10px;
+}
+
+.left__col__container .more__details .connection__details a p:hover{
+  background-color: #ececec !important;
+}
+
+.left__col__container .more__details .connection__details h5{
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.middle__col .profile__image{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.middle__col .create__post .create__post__container{
+  padding: 10px 20px 0;
+  background-color: #fff;
+}
+
+.middle__col .create__post .create__post__container .input__row{
+  display: flex;
+  align-items: center;
+}
+
+.middle__col .create__post .create__post__container .input__row input{
+  padding: 10px;
+  flex: 1;
+  border: 1px solid rgb(179, 178, 178);
+  border-radius: 30px;
+  margin-left: 10px;
+  color: #7d7d7d;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.middle__col .create__post .create__post__container .input__row input:focus{
+  outline: none;
+}
+
+.middle__col .create__post .create__post__container .input__row input::placeholder{
+  color: #7d7d7d;
+  font-weight: 500;
+}
+
+.middle__col .create__post .create__post__container .more__post__type{
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.middle__col .create__post .create__post__container .more__post__type .type{
+  flex: 1;
+  font-size: 14px;
+  color: var(--grey);
+  display: flex;
+  align-items: center;
+}
+
+.middle__col .create__post .create__post__container .more__post__type .type .MuiSvgIcon-root{
+  font-size: 1.8em;
+  margin-right: 10px;
+}
+
+.middle__col .sorting{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 0;
+  position: relative;
+}
+
+.middle__col .sorting .line{
+  height: 1px;
+  background-color: var(--light-grey);
+  flex: 1;
+}
+
+.middle__col .sorting span{
+  font-size: 12px;
+  width: 42px;
+  margin-left: 5px;
+}
+
+.middle__col .sorting .grey-text{
+  color: var(--grey) !important;
+  margin-left: 10px;
+}
+
+.middle__col .sorting ul{
+  position: absolute;
+  right: 5px;
+  top: 35px;
+  width: 165px;
+  background-color: #fff;
+  box-shadow: -1px 4px 4px rgba(0,0,0,0.3);
+  border-radius: 6px;
+}
+
+.middle__col .sorting ul li{
+  font-size: 12px;
+  color: var(--grey);
+  padding: 10px;
+}
+
+.middle__col .sorting ul li.active__sort{
+  border-left: 3px solid #27ae6f;
+}
+
+.middle__col .sorting ul li:hover{
+  background-color: rgb(225, 223, 223);
+}
